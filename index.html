@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- ▼ サイトのタイトル：差し替え推奨（例: 〇〇 / Scenario Writer Portfolio） -->
+  <!-- ▼ サイトのタイトル：本名・所属を含めない（検索結果や OGP に出るため） -->
   <title>Portfolio — Scenario Writer / Narrative Designer</title>
-  <!-- ▼ SEO用 description：差し替え推奨 -->
+  <!-- 検索避け：実名・所属が含まれるため、検索エンジンに収集・表示されないよう全ページで noindex を宣言 -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <!-- ▼ ページ説明：本名・所属を含めない -->
   <meta name="description" content="ゲーム業界向け シナリオライター / ナラティブデザイナー ポートフォリオ" />
 
   <!-- Google Fonts: 和文 Noto Serif JP / 欧文 Cormorant Garamond -->
@@ -65,10 +67,8 @@
       </h1>
 
       <p class="hero-name reveal" data-reveal-delay="240">
-        <!-- ▼ 名前（日本語）：差し替え -->
-        <span class="name-jp">山田 太郎</span>
-        <!-- ▼ 名前（ローマ字）：差し替え -->
-        <span class="name-en">YAMADA Taro</span>
+        <span class="name-jp">目黒 幸輝</span>
+        <span class="name-en">MEGURO Koki</span>
       </p>
 
       <div class="hero-cta reveal" data-reveal-delay="360">
@@ -98,66 +98,84 @@
 
       <div class="profile-grid">
         <div class="profile-bio reveal">
-          <!-- ▼ 自己紹介文：差し替え（2〜4段落程度を想定） -->
           <p>
-            ここに自己紹介文を入れる。<br />
-            ゲームプランナーとしての経験を背景に、
-            シナリオ・ナラティブ表現に取り組んできた経緯や動機を、
-            自分の言葉で 2〜4 段落程度。
+            大学で取り組んだ研究は、微生物の塩基配列をゲームに落とし込み、バイオインフォマティクスという学問の入り口を「遊ぶ体験」として設計するものでした。難解な対象に、物語と遊びの形で読者を招き入れること — そこから始まった関心は、いまも自分の仕事の根にあります。
           </p>
           <p>
-            読み手はゲーム会社の採用担当者・ディレクター。
-            「何を書ける人か」「何に関心があるか」を端的に伝える文章を意識する。
+            卒業後はエンジニアとして Unity フロントエンドやサーバーサイドの設計に携わり、その後ゲームプランナーへ転じてブラウザゲーム・スマートフォンゲームの運用と企画を担当してきました。仕様の裏側を理解できること、運用で得たユーザー像、データに基づいて判断する習慣 — それらすべてを抱えて、いま物語の側へ向き直そうとしています。
+          </p>
+          <p>
+            シナリオライター／ナラティブデザイナーとして、体験のなかに息づく物語を書きたい。それが現在の目標です。
           </p>
         </div>
 
-        <!-- 職務経歴：時系列（新しい順） -->
+        <!-- 職務経歴：時系列（新しい順）／ 末尾に学歴 -->
         <ol class="career-list reveal" data-reveal-delay="120">
-          <!-- ▼ 経歴1件ごとにこの <li> をコピーして使う -->
           <li class="career-item">
-            <div class="career-period">20XX – 現在</div>
+            <div class="career-period">2024 – 現在</div>
             <div class="career-body">
-              <h3 class="career-role">役職 / ポジション</h3>
-              <p class="career-company">所属（会社名・チーム名）</p>
+              <h3 class="career-role">スマートフォンゲーム 運営プランナー</h3>
+              <p class="career-company">株式会社でらゲー（正社員）</p>
               <p class="career-desc">
-                担当業務の概要。タイトル名・担当範囲・成果などを 1〜3 行で。
+                外部 IP タイトルのアウトゲーム担当。運営改善の仕様策定とリリース管理、新イベントの企画から仕様作成・実装管理・データ入力・QA・お知らせ作成までを一気通貫で担当。BigQuery を用いたデータ分析、月次 KPI 報告および半期資料の作成も担当。
               </p>
             </div>
           </li>
 
           <li class="career-item">
-            <div class="career-period">20XX – 20XX</div>
+            <div class="career-period">2024</div>
             <div class="career-body">
-              <h3 class="career-role">モバイルゲーム 運用プランナー</h3>
-              <p class="career-company">所属（会社名・チーム名）</p>
+              <h3 class="career-role">ブラウザゲーム 企画運営</h3>
+              <p class="career-company">株式会社グリー（契約社員 / 3ヶ月）</p>
               <p class="career-desc">
-                イベント企画・KPI 分析・施策設計など。担当範囲を簡潔に。
+                ブラウザゲームタイトルの企画運営業務に従事。
               </p>
             </div>
           </li>
 
           <li class="career-item">
-            <div class="career-period">20XX – 20XX</div>
+            <div class="career-period">2022 – 2024</div>
             <div class="career-body">
-              <h3 class="career-role">ブラウザゲーム イベント企画</h3>
-              <p class="career-company">所属（会社名・チーム名）</p>
+              <h3 class="career-role">ブラウザゲーム イベントプランナー</h3>
+              <p class="career-company">株式会社コンフィデンス（正社員）</p>
               <p class="career-desc">
-                季節イベント・ストーリーイベントの企画と進行管理。
+                Mobage プラットフォームのブラウザゲームタイトルにおいて、イベント企画運営業務を担当。
               </p>
             </div>
           </li>
 
           <li class="career-item">
-            <div class="career-period">20XX – 20XX</div>
+            <div class="career-period">2018 – 2021</div>
             <div class="career-body">
-              <h3 class="career-role">情報科学 学士課程</h3>
-              <p class="career-company">大学名 / 学部・学科</p>
+              <h3 class="career-role">システムエンジニア</h3>
+              <p class="career-company">株式会社 KSF（正社員）</p>
               <p class="career-desc">
-                CS の基礎、Unity / Web 開発を学ぶ。
+                Unity フロントエンドとサーバーサイド双方の開発を経験。大手ゲーム会社のプリプロおよび QA フェーズ支援、自社 IDaaS の要件定義〜詳細設計などを担当。
               </p>
             </div>
           </li>
-          <!-- ▲ ここまでが 1 件分 -->
+
+          <li class="career-item">
+            <div class="career-period">2016 – 2018</div>
+            <div class="career-body">
+              <h3 class="career-role">カスタマーサポート</h3>
+              <p class="career-company">株式会社 DeNA カスタマーサポートセンター（アルバイト）</p>
+              <p class="career-desc">
+                他社協業アプリのお問い合わせ対応、回答マクロの精査・整備、月次の数値データ作成を担当。リリース初週には 500 件／日規模の問い合わせ対応を経験。2 年目以降は新人 OJT 担当も兼任。
+              </p>
+            </div>
+          </li>
+
+          <li class="career-item">
+            <div class="career-period">〜 2018</div>
+            <div class="career-body">
+              <h3 class="career-role">学士課程</h3>
+              <p class="career-company">新潟大学 工学部</p>
+              <p class="career-desc">
+                確率統計・AI 論理構造・データベースなど情報系の基礎を学習。卒業研究では「生物情報工学（バイオインフォマティクス）の学問への招待」をテーマに、微生物の塩基配列をゲーム化し、学問への入口を体験として設計するアプローチを提案。2017 年度 IEEE 新潟大学学生ブランチ受賞テーマ。
+              </p>
+            </div>
+          </li>
         </ol>
       </div>
     </div>
@@ -439,8 +457,7 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <p class="footer-copy">
-          <!-- ▼ コピーライト：名前を差し替え -->
-          © <span id="footerYear"></span> YAMADA Taro. All rights reserved.
+          © <span id="footerYear"></span> MEGURO Koki. All rights reserved.
         </p>
         <a href="#hero" class="footer-top">Back to top ↑</a>
       </div>
