@@ -1,0 +1,39 @@
+# 検索エンジン向け：クロール自体は許可する。
+# インデックス除外は HTML の <meta name="robots" content="noindex"> で行う。
+# （robots.txt で Disallow すると noindex メタを読まれず、URL だけ検索結果に残る恐れがあるため）
+User-agent: *
+Disallow:
+
+# AI 学習用クローラー：本サイト全体を学習対象から除外
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
