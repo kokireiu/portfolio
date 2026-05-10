@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ▼ サイトのタイトル：差し替え推奨（例: 〇〇 / Scenario Writer Portfolio） -->
+  <title>Portfolio — Scenario Writer / Narrative Designer</title>
+  <!-- ▼ SEO用 description：差し替え推奨 -->
+  <meta name="description" content="ゲーム業界向け シナリオライター / ナラティブデザイナー ポートフォリオ" />
+
+  <!-- Google Fonts: 和文 Noto Serif JP / 欧文 Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============================================================
+       Header / Navigation
+       ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- ▼ ロゴ：イニシャル or 名前。差し替え推奨 -->
+      <a href="#hero" class="logo" aria-label="Home">
+        <span class="logo-mark">＊</span>
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       Hero
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <p class="hero-eyebrow reveal">
+        <!-- ▼ 志望職種ラベル：差し替え可 -->
+        Scenario Writer ／ Narrative Designer
+      </p>
+
+      <h1 class="hero-title reveal" data-reveal-delay="120">
+        <!-- ▼ キャッチコピー：差し替え推奨（2〜3行で改行調整） -->
+        <span class="line">物語は、</span>
+        <span class="line">体験のなかに息づく。</span>
+      </h1>
+
+      <p class="hero-name reveal" data-reveal-delay="240">
+        <!-- ▼ 名前（日本語）：差し替え -->
+        <span class="name-jp">山田 太郎</span>
+        <!-- ▼ 名前（ローマ字）：差し替え -->
+        <span class="name-en">YAMADA Taro</span>
+      </p>
+
+      <div class="hero-cta reveal" data-reveal-delay="360">
+        <a href="#works" class="btn btn-primary">作品を見る</a>
+        <a href="#profile" class="btn btn-ghost">経歴を読む</a>
+      </div>
+
+      <a href="#profile" class="scroll-indicator" aria-label="Scroll">
+        <span class="scroll-line"></span>
+        <span class="scroll-text">SCROLL</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Profile / Career
+       ============================================================ -->
+  <section class="section" id="profile">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-num">01</p>
+        <h2 class="section-title">
+          <span class="title-jp">経歴</span>
+          <span class="title-en">Profile &amp; Career</span>
+        </h2>
+      </header>
+
+      <div class="profile-grid">
+        <div class="profile-bio reveal">
+          <!-- ▼ 自己紹介文：差し替え（2〜4段落程度を想定） -->
+          <p>
+            ここに自己紹介文を入れる。<br />
+            ゲームプランナーとしての経験を背景に、
+            シナリオ・ナラティブ表現に取り組んできた経緯や動機を、
+            自分の言葉で 2〜4 段落程度。
+          </p>
+          <p>
+            読み手はゲーム会社の採用担当者・ディレクター。
+            「何を書ける人か」「何に関心があるか」を端的に伝える文章を意識する。
+          </p>
+        </div>
+
+        <!-- 職務経歴：時系列（新しい順） -->
+        <ol class="career-list reveal" data-reveal-delay="120">
+          <!-- ▼ 経歴1件ごとにこの <li> をコピーして使う -->
+          <li class="career-item">
+            <div class="career-period">20XX – 現在</div>
+            <div class="career-body">
+              <h3 class="career-role">役職 / ポジション</h3>
+              <p class="career-company">所属（会社名・チーム名）</p>
+              <p class="career-desc">
+                担当業務の概要。タイトル名・担当範囲・成果などを 1〜3 行で。
+              </p>
+            </div>
+          </li>
+
+          <li class="career-item">
+            <div class="career-period">20XX – 20XX</div>
+            <div class="career-body">
+              <h3 class="career-role">モバイルゲーム 運用プランナー</h3>
+              <p class="career-company">所属（会社名・チーム名）</p>
+              <p class="career-desc">
+                イベント企画・KPI 分析・施策設計など。担当範囲を簡潔に。
+              </p>
+            </div>
+          </li>
+
+          <li class="career-item">
+            <div class="career-period">20XX – 20XX</div>
+            <div class="career-body">
+              <h3 class="career-role">ブラウザゲーム イベント企画</h3>
+              <p class="career-company">所属（会社名・チーム名）</p>
+              <p class="career-desc">
+                季節イベント・ストーリーイベントの企画と進行管理。
+              </p>
+            </div>
+          </li>
+
+          <li class="career-item">
+            <div class="career-period">20XX – 20XX</div>
+            <div class="career-body">
+              <h3 class="career-role">情報科学 学士課程</h3>
+              <p class="career-company">大学名 / 学部・学科</p>
+              <p class="career-desc">
+                CS の基礎、Unity / Web 開発を学ぶ。
+              </p>
+            </div>
+          </li>
+          <!-- ▲ ここまでが 1 件分 -->
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Skills
+       ============================================================ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-num">02</p>
+        <h2 class="section-title">
+          <span class="title-jp">スキル</span>
+          <span class="title-en">Skills</span>
+        </h2>
+      </header>
+
+      <div class="skills-grid">
+        <!-- 技術系 -->
+        <article class="skill-card reveal">
+          <header class="skill-card-head">
+            <span class="skill-tag">Technical</span>
+            <h3>技術</h3>
+          </header>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">Computer Science</span>
+              <span class="skill-meta">2 years</span>
+              <p class="skill-note">大学にて CS の基礎を学習。</p>
+            </li>
+            <li>
+              <span class="skill-name">Unity / フロントエンド</span>
+              <span class="skill-meta">2 years</span>
+              <p class="skill-note">クライアント実装、UI 周りの開発経験。</p>
+            </li>
+            <li>
+              <span class="skill-name">Web アプリ開発</span>
+              <span class="skill-meta">2 years</span>
+              <p class="skill-note">HTML / CSS / JS、API 連携など。</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- 企画・運用系 -->
+        <article class="skill-card reveal" data-reveal-delay="120">
+          <header class="skill-card-head">
+            <span class="skill-tag">Planning</span>
+            <h3>企画 / 運用</h3>
+          </header>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">ゲームプランナー</span>
+              <span class="skill-meta">5 years</span>
+              <p class="skill-note">
+                ブラウザゲームのイベント企画、モバイルゲームの運用業務を経験。
+              </p>
+            </li>
+            <li>
+              <span class="skill-name">イベント企画 / 進行</span>
+              <span class="skill-meta">Browser Game</span>
+              <p class="skill-note">季節イベント、ストーリーイベントなど。</p>
+            </li>
+            <li>
+              <span class="skill-name">運用 / KPI 分析</span>
+              <span class="skill-meta">Mobile Game</span>
+              <p class="skill-note">継続率・課金指標の分析と施策立案。</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- ツール・AI -->
+        <article class="skill-card reveal" data-reveal-delay="240">
+          <header class="skill-card-head">
+            <span class="skill-tag">Tools / AI</span>
+            <h3>ツール &amp; AI</h3>
+          </header>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">AI エージェント設計・活用</span>
+              <span class="skill-meta">Claude Code 等</span>
+              <p class="skill-note">
+                プロンプト設計、エージェントワークフローの構築・運用。
+              </p>
+            </li>
+            <li>
+              <span class="skill-name">ドキュメンテーション</span>
+              <span class="skill-meta">Notion / Markdown</span>
+              <p class="skill-note">仕様書・企画書の構造化と保守。</p>
+            </li>
+            <li>
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-meta">Version Control</span>
+              <p class="skill-note">個人開発・チーム開発での運用経験。</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Scenario Works
+       ============================================================ -->
+  <section class="section" id="works">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-num">03</p>
+        <h2 class="section-title">
+          <span class="title-jp">シナリオ作品</span>
+          <span class="title-en">Scenario Works</span>
+        </h2>
+        <p class="section-lead reveal" data-reveal-delay="120">
+          <!-- ▼ セクションリード文：差し替え可 -->
+          創作シナリオ・脚本のサンプル。各 PDF に全文を収録。
+        </p>
+      </header>
+
+      <div class="card-grid">
+        <!-- ▼ 作品カード 1 枚分。コピーして増やせる -->
+        <article class="work-card reveal">
+          <div class="work-card-head">
+            <span class="work-genre">ジャンル</span>
+            <span class="work-length">約 ○○○○ 字</span>
+          </div>
+          <h3 class="work-title">作品タイトル A</h3>
+          <p class="work-intent">
+            制作意図を 1〜2 行で。<br />
+            ここに作品の狙いやテーマを簡潔に書く。
+          </p>
+          <a href="#" class="work-link" aria-label="作品 A の PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-reveal-delay="120">
+          <div class="work-card-head">
+            <span class="work-genre">ジャンル</span>
+            <span class="work-length">約 ○○○○ 字</span>
+          </div>
+          <h3 class="work-title">作品タイトル B</h3>
+          <p class="work-intent">
+            制作意図を 1〜2 行で。<br />
+            ここに作品の狙いやテーマを簡潔に書く。
+          </p>
+          <a href="#" class="work-link" aria-label="作品 B の PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-reveal-delay="240">
+          <div class="work-card-head">
+            <span class="work-genre">ジャンル</span>
+            <span class="work-length">約 ○○○○ 字</span>
+          </div>
+          <h3 class="work-title">作品タイトル C</h3>
+          <p class="work-intent">
+            制作意図を 1〜2 行で。<br />
+            ここに作品の狙いやテーマを簡潔に書く。
+          </p>
+          <a href="#" class="work-link" aria-label="作品 C の PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+        <!-- ▲ ここまでが 1 枚分 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Documents（企画書・仕様書）
+       ============================================================ -->
+  <section class="section section-alt" id="documents">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-num">04</p>
+        <h2 class="section-title">
+          <span class="title-jp">企画書 &amp; 仕様書</span>
+          <span class="title-en">Documents</span>
+        </h2>
+        <p class="section-lead reveal" data-reveal-delay="120">
+          <!-- ▼ セクションリード文：差し替え可 -->
+          シナリオ以外の制作物。ゲーム企画書、システム仕様、イベント設計など。
+        </p>
+      </header>
+
+      <div class="card-grid">
+        <!-- ▼ ドキュメントカード 1 枚分。コピーして増やせる -->
+        <article class="work-card reveal">
+          <div class="work-card-head">
+            <span class="work-genre">企画書</span>
+            <span class="work-length">A4 / ○○ pages</span>
+          </div>
+          <h3 class="work-title">ゲーム企画書 タイトル</h3>
+          <p class="work-intent">
+            企画意図・ターゲット・コンセプトの要点を 1〜2 行で。
+          </p>
+          <a href="#" class="work-link" aria-label="企画書 PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-reveal-delay="120">
+          <div class="work-card-head">
+            <span class="work-genre">仕様書</span>
+            <span class="work-length">A4 / ○○ pages</span>
+          </div>
+          <h3 class="work-title">バトルシステム仕様書</h3>
+          <p class="work-intent">
+            システムの設計意図と構造を 1〜2 行で。
+          </p>
+          <a href="#" class="work-link" aria-label="仕様書 PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-reveal-delay="240">
+          <div class="work-card-head">
+            <span class="work-genre">設計</span>
+            <span class="work-length">A4 / ○○ pages</span>
+          </div>
+          <h3 class="work-title">イベント設計ドキュメント</h3>
+          <p class="work-intent">
+            イベントの構成と狙いを 1〜2 行で。
+          </p>
+          <a href="#" class="work-link" aria-label="設計書 PDF を開く">
+            PDF を開く
+            <span class="work-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Contact
+       ============================================================ -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-num">05</p>
+        <h2 class="section-title">
+          <span class="title-jp">連絡先</span>
+          <span class="title-en">Contact</span>
+        </h2>
+      </header>
+
+      <div class="contact-block reveal" data-reveal-delay="120">
+        <p class="contact-lead">
+          <!-- ▼ コンタクトリード：差し替え可 -->
+          お仕事のご相談・お問い合わせは、こちらからお願いいたします。
+        </p>
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-label">Email</span>
+            <!-- ▼ メールアドレス：差し替え -->
+            <a class="contact-value" href="mailto:your-email@example.com">your-email@example.com</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <!-- ▼ GitHub URL：差し替え -->
+            <a class="contact-value" href="#" target="_blank" rel="noopener noreferrer">github.com/your-handle</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">X / SNS</span>
+            <!-- ▼ SNS リンク：任意。不要なら <li> ごと削除 -->
+            <a class="contact-value" href="#" target="_blank" rel="noopener noreferrer">@your-handle</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">
+          <!-- ▼ コピーライト：名前を差し替え -->
+          © <span id="footerYear"></span> YAMADA Taro. All rights reserved.
+        </p>
+        <a href="#hero" class="footer-top">Back to top ↑</a>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
